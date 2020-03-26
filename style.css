@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 80px;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -80px;
+}
+body {
+    background: #010103;
+}
+header {
+    padding-top: 76px;
+    width: 100%;
+    border-bottom: 3px solid #2D96E3;
+    padding-bottom: 22px;
+    font-family: 'Roboto', sans-serif;
+}
+.top-menu {
+    display: flex;
+    justify-content: space-between;
+}
+.top-menu-item,
+.top-menu-language,
+.top-menu-in {
+    background: #292E50;
+    border-radius: 3px;
+    color: white;
+    text-decoration: none;
+    padding: 7px 10px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    width: 197px;
+    height: 38px;
+    margin: 20px;
+    transition: .5s;
+}
+
+.top-menu-item:hover {
+    background: #2C3DAC;
+}
+
+.top-menu-in:hover {
+    background: #2C3DAC;
+}
+.top-menu-language:hover{
+    background: #2C3DAC;
+}
+.top-menu-in {
+    width: 88px;
+    height: 38px;
+}
+.top-menu-language {
+    width: 88px;
+    height: 38px;
+}
+.top-menu-language form select img {
+    width: 20px;
+}
+
+.bg-pic-gradient {
+    padding: 42px 0 0 45px;
+    margin-top: 80px;
+    width: 738px;
+    height: 274px;
+    background: linear-gradient(244.93deg, rgba(41, 46, 80, 0.77) 44.75%, rgba(41, 46, 80, 0) 102.66%);
+    box-shadow: inset 0 4px 12px #000000;
+    position: relative;
+}
+.bg-pic-gradient:before {
+    content: '';
+    position: absolute;
+    background: url("./images/bg-girl.png");
+    bottom: 0;
+    right: -109px;
+    margin: auto;
+    width: 503px;
+    height: 360px;
+}
+.bg-pic-title {
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.bg-pic-pubg {
+    background: linear-gradient(180deg, #20243E 0%, rgba(32, 36, 62, 0) 87.04%);
+    box-shadow: inset 0 4px 12px #000000;
+    width: 388px;
+    height: 274px;
+    margin-top: 80px;
+    margin-right: 25px;
+    position: relative;
+}
+.bg-pic-pubg:before {
+    content: '';
+    position: absolute;
+    background: url("./images/pubg-man.png");
+    width: 168px;
+    height: 210px;
+    top: -53px;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+.bg-pic-pubg:after {
+    content: '';
+    position: absolute;
+    background: url("./images/pubg-name.png");
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: 410px;
+    height: 128px;
+}
+.bg-pic-all {
+    display: flex;
+    justify-content: space-between;
+}
+
+#game {
+    margin-top: 100px;
+}
+.game-title {
+    font-family: Montserrat, sans-serif;
+    margin-bottom: 100px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #E5E5E5;
+}
+.col-3 {
+    width: 25%;
+    padding: 0 15px;
+    margin-bottom: 20px;
+}
+.game-info {
+    background: #292E50;
+    padding: 20px 0 11px 9px;
+}
+.game-info-name,
+.game-info-category {
+    font-family: Montserrat, sans-serif;
+    color: #E5E5E5;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: bold;
+}
+.game-info-name {
+    margin-bottom: 5px;
+}
+.game-info-category {
+    margin-bottom: 24px;
+}
+.game-info-category span {
+    font-size: 10px;
+    line-height: 29px;
+    font-weight: 300;
+}
+.game-info a {
+    background: #2C3DAC;
+    border-radius: 2px;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    width: 188px;
+    margin: 0;
+}
+.game-info span {
+    font-size: 24px;
+    line-height: 29px;
+}
+.game-info a span {
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    width: 117px;
+    text-align: center;
+}
+.game-info-bottom {
+    font-family: Montserrat, sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+.game-price {
+    background: #4B4C51;
+    border-radius: 2px;
+    padding: 15px 19px 9px 14px;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    width: 88px;
+    color: #FFFFFF;
+}
+.game-item img {
+    margin-bottom: 21px;
+    background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
